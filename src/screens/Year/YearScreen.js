@@ -5,7 +5,6 @@ import { createYearAction, listYears } from '../../actions/yearActions';
 import Loading from '../../components/Loading/Loading';
 import PageLoading from '../../components/Loading/PageLoading';
 import Header from '../../components/Header/Header';
-import { Helmet } from 'react-helmet';
 import { ErrorMessage } from '../../components/Error/ErrorMessage';
 import { Button, Dropdown, DropdownButton } from 'react-bootstrap';
 import { motion, AnimatePresence, AnimateSharedLayout } from "framer-motion";
@@ -101,9 +100,7 @@ export default function YearScreen({ history }) {
       { pageLoading ? <div className="pageLoading"><PageLoading /></div> :
 <form onSubmit={submitHandler}>
 
-<Helmet>
-   <title>Year | Create</title>
- </Helmet>
+
  <motion.div
  animate={videoDisplay ? "hide" : "show"}
  variants={valueState}
