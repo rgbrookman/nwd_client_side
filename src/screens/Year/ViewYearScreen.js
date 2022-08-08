@@ -227,9 +227,7 @@ useEffect(()=> {
 <Header />
     <form onSubmit={updateHandler}>
 
-    <Helmet>
-       <title>Your Year | Create</title>
-     </Helmet>
+
   { pageLoading ? <div className="pageLoading"><PageLoading /></div> :
     <main id="yearContainer">
       <div className="yearTopRow">
