@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './about.css';
 import { motion, AnimatePresence } from "framer-motion";
 import { Container } from 'react-bootstrap';
-import { Helmet } from 'react-helmet';
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 
@@ -113,9 +112,7 @@ closed: {
     <Header />
     <Container fluid className="aboutScreenMain">
 
-    <Helmet>
-       <title>About NWD</title>
-     </Helmet>
+
     <div className="itemA">
     <motion.h1
     className="aboutHeader"
