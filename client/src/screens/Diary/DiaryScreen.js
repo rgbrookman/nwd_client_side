@@ -99,9 +99,7 @@ useEffect(() => {
     <>
     <Header />
 <main className="dayScreenMain">
-<Helmet>
-   <title>Diary</title>
- </Helmet>
+
 <div className="topRow">
 
 <input

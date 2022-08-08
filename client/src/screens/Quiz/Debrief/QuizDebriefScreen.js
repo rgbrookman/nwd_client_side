@@ -48,9 +48,7 @@ export default function QuizDebriefScreen() {
 
   return (
     <>
-      <Helmet>
-        <title>The Art of Looking</title>
-      </Helmet>
+    
 <Header />
 
 <motion.div

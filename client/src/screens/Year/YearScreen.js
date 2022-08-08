@@ -99,9 +99,7 @@ export default function YearScreen({ history }) {
       { pageLoading ? <div className="pageLoading"><PageLoading /></div> :
 <form onSubmit={submitHandler}>
 
-<Helmet>
-   <title>Year | Create</title>
- </Helmet>
+
  <motion.div
  animate={videoDisplay ? "hide" : "show"}
  variants={valueState}

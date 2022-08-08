@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
 import { Container, Button, Row, Col  } from 'react-bootstrap';
 import { motion } from 'framer-motion';
-import { Helmet } from 'react-helmet';
 import Swal from 'sweetalert2'
 import './contact.css';
 import Header from "../../components/Header/Header";
