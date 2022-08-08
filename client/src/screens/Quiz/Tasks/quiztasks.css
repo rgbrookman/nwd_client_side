@@ -1,0 +1,15 @@
+#taskImageDiv {
+  display: inline-block;
+}
+
+.taskImage2 {
+  margin-top: 6px;
+  border: 2px solid #46A46C;
+  border-radius: 3px;
+  float: right;
+}
+
+.taskImage1 {
+  border: 2px solid #46A46C;
+  border-radius: 3px;
+}

@@ -1,0 +1,198 @@
+
+/* Containers */
+.introStageMain {
+  height: 300vh;
+}
+
+.introContainer {
+  background-color: #EBF4FA;
+  color: #46A46C;
+  border: 1px solid #46A46C;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 24px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.introContainer h1 {
+  font-size: clamp(2.5vw, 3vw, 4vw);
+}
+
+.stepsList {
+  margin-top: 12px;
+}
+
+.stepsList li {
+  margin-top: 12px;
+}
+
+.explanationContainer,
+.specificityContainer,
+.finalDisplayContainer {
+  background-color: #EBF4FA;
+  color: #46A46C;
+  border: 1px solid #46A46C;
+  padding: 24px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.editDeleteValues1 {
+  display: none;
+}
+
+.valuesIntBox1,
+.valuesIntBox2,
+.valuesIntBox3,
+.valuesIntBox4,
+.valuesIntBox5
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.valuesIntBox1:hover .editDeleteValues1,
+.valuesIntBox1:hover .editDeleteValuesText1,
+.valuesIntBox2:hover .editDeleteValues2,
+.valuesIntBox2:hover .editDeleteValuesText2,
+.valuesIntBox3:hover .editDeleteValues3,
+.valuesIntBox3:hover .editDeleteValuesText3,
+.valuesIntBox4:hover .editDeleteValues4,
+.valuesIntBox4:hover .editDeleteValuesText4,
+.valuesIntBox5:hover .editDeleteValues5,
+.valuesIntBox5:hover .editDeleteValuesText5 {
+  display: block;
+}
+
+.valueName {
+    font-size: 1.5em;
+}
+
+.valueExplanation {
+  margin-left: 8px;
+  font-size: 0.8em;
+}
+
+.explanationTitle {
+  display: flex;
+  text-align: center;
+}
+
+.explanationTitle h1 {
+    font-size: clamp(2.5vw, 3vw, 4vw);
+}
+
+.foundationContainer,
+.consistencyContainer,
+.experienceContainer
+{
+  background-color: #EBF4FA;
+  color: #46A46C;
+  border: 1px solid #46A46C;
+  padding: 24px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fourFiveDiv {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.minusIcon,
+.bullseyeIcon {
+  margin-left: 8px;
+  margin-bottom: 6px;
+}
+
+.consistencyContainer input,
+.foundationContainer input,
+.experienceContainer input,
+.specificityContainer input
+{
+  font-family: "Courier New", monospace;
+  width: 50%;
+  margin: 0 0 10px 0;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+}
+
+.specificityContainer {
+  background-color: #EBF4FA;
+  color: #46A46C;
+  border: 1px solid #46A46C;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.specificityContainer input:first-child {
+width: 25%;
+margin: 0 0 10px 0;
+}
+
+.specificityContainer input:last-child {
+width: 70%;
+margin: 0 0 10px 0;
+}
+
+
+.explanationButton, .valuesButton {
+  background-color: #EBF4FA;
+  color: #46A46C;
+  font-family: 'Koulen', cursive;
+  border: 1px solid #46A46C;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.valuesButton:hover,
+.valuesButton:focus
+ {
+  background-color: #46A46C;
+  color: #EBF4FA;
+  border: 1px solid #46A46C;
+  box-shadow: none;
+}
+
+.textInput,
+.valueText,
+.dobInput {
+  border-style: solid;
+  border: 1px solid #46A46C;
+  outline-color: #46A46C;
+}
+
+.textInput:hover,
+.textInput:focus,
+.valueText:hover,
+.valueText:focus
+ {
+  border: 1px solid #46A46C;
+  box-shadow: none;
+}
+
+.fiveDiv {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

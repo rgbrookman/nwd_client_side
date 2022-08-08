@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Koulen&family=Montserrat&display=swap');
+
+/* General Accessibility */
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  background-color: #46A46C;
+  color: #333;
+  font-size: 1.2em;
+  padding: 0;
+  margin: 0;
+  color: #1D1F20;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+span, p, li {
+  font-family: 'Courier New', monospace;
+  font-weight: 400;
+}
+
+label {
+  font-family: arial, sans-serif;
+  font-weight: 200;
+  font-size: 0.8em;
+  line-height: 0.8;
+  margin: 0 0 0 12px;
+  text-align: start;
+  color: lightgreen;
+}
+
+/* App.js */
+Link {
+  text-decoration: none;
+}
+
+.buttonBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+}
+
+DropdownButton {
+  display: flex;
+  flex-direction: column;
+}

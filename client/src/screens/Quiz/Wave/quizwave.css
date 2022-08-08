@@ -1,0 +1,54 @@
+.sideBySide {
+  display: flex;
+}
+
+.toggleButtonDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.toggleButtonDiv img {
+  margin-bottom: 12px;
+}
+
+.toggleSpread {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#scoreHere {
+  margin-right: 24px;
+}
+
+.toggleButton {
+  background-color: #46A46C;
+  color: #EBF4FA;
+  font-family: 'Koulen', cursive;
+  border: 1px solid #46A46C;
+  margin: 12px 6px 0 6px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+
+#feelingVariance {
+  display: inline-block;
+}
+
+.feelingVarianceChart {
+  border: 3px solid #46A46C;
+  border-radius: 10px;
+}
+
+#waveContent {
+  display: inline-block;
+}
+
+.waveContentChart {
+  border: 3px solid #46A46C;
+  border-radius: 10px;
+}

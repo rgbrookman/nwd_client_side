@@ -1,0 +1,92 @@
+/* Login */
+#login-screen {
+  display: flex;
+  height: 75vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#login-screen span {
+  font-family: 'Koulen', cursive;
+  color: #EBF4FA;
+}
+
+.loginHeader {
+  font-family: 'caveat', cursive;
+  color: #EBF4FA;
+}
+
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EBF4FA;
+  color: #46A46C;
+  padding: 12px 12px 6px 12px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.emailContainer,
+.passwordContainer,
+.submitContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 12px
+}
+
+.emailContainer label,
+.passwordContainer label {
+padding: 0;
+margin: 0;
+width: 200px;
+color: #EBF4FA;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.loginContainer label {
+  font-family: 'Koulen', cursive;
+}
+
+.loginContainer button {
+  display: inline-block;
+  position: relative;
+  left: 250px;
+  background-color: #EBF4FA;
+  color: #46A46C;
+  font-family: 'Koulen', cursive;
+  border: 1px solid #46A46C;
+}
+
+.loginInput {
+  font-size: 0.8em;
+  width: 100%;
+  width: 100%;
+  border-style: solid;
+  border: 1px solid #46A46C;
+  outline-color: #46A46C;
+  font-family: 'courier new', monospace;
+}
+
+.submitButton {
+  background-color: #EBF4FA;
+  color: #46A46C;
+  font-family: 'Koulen', cursive;
+  border: 1px solid #46A46C;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.submitButton:hover,
+.submitButton:focus
+ {
+  background-color: #46A46C;
+  color: #EBF4FA;
+  border: 1px solid #46A46C;
+  box-shadow: none;
+}

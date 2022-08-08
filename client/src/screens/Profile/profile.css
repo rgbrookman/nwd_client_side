@@ -1,0 +1,68 @@
+.mainProfileScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #EBF4FA;
+  padding: 24px 24px 12px 24px; 
+  color: #46A46C;
+  border-radius: 10px;
+}
+
+.updateProfileButton {
+  background-color: #46A46C;
+  color: #EBF4FA;
+  font-family: 'Koulen', cursive;
+  border: 1px solid #46A46C;
+  margin-bottom: 12px;
+}
+
+.nameContainer label,
+.emailContainer label,
+.passwordContainer label,
+.confirmPasswordContainer label {
+  justify-content: flex-end;
+  margin-right: 12px;
+      color: #46A46C;
+      font-size: 0.8em;
+}
+
+.quoteTextText {
+  font-family: 'caveat', cursive;
+  color: #EBF4FA;
+  font-size: 2.5em;
+}
+
+.quoteTextAuthor {
+  font-family: 'Courier New', monospace;
+  color: #EBF4FA;
+  font-size: 0.8em;
+}
+
+.profileButtonDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.textInput {
+  font-family: "Courier New", monospace;
+  font-size: 0.8em;
+  width: 100%;
+  border-style: solid;
+  border: 1px solid #46A46C;
+  outline-color: #46A46C;
+}
+
+.textInput:hover,
+.textInput:focus
+ {
+  border: 1px solid #46A46C;
+  box-shadow: none;
+}

@@ -1,0 +1,39 @@
+.textInput {
+  width: 100%;
+}
+
+.feedbackButton {
+  background-color: #EBF4FA;
+  color: #46A46C;
+  font-family: 'Koulen', cursive;
+  border: 1px solid #46A46C;
+  margin-bottom: 12px;
+  width: 200px;
+}
+
+.returnButton {
+  background-color: #46A46C;
+  color: #EBF4FA;
+  font-family: 'Koulen', cursive;
+  border: 1px solid #46A46C;
+  margin-bottom: 12px;
+  width: 200px;
+}
+
+.rowHeader {
+    color: #EBF4FA;
+    font-family: 'caveat', cursive;
+}
+
+.feedbackContainer label {
+  color: #EBF4FA;
+}
+
+.textInput {
+  border-style: solid;
+  border: 1px solid #46A46C;
+  outline-color: #46A46C;
+  font-family: 'courier new', monospace;
+  border-radius: 5px;
+  padding: 3px;
+}

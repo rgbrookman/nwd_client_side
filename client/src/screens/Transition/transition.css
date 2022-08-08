@@ -1,0 +1,28 @@
+.landingPageCaption {
+  color: #EBF4FA;
+}
+
+.strapLineDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.PickerDiv {
+  margin: 6px 12px 6px 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.PickerDiv input {
+  margin-left: 6px;
+}
+
+.landingPageHeaderText {
+  color: #EBF4FA;
+  font-family: 'caveat', cursive;
+  font-size: clamp(2vw, 8vw, 10vw);
+  }

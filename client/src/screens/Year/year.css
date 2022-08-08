@@ -1,0 +1,751 @@
+/* Year Screen */
+@media only screen and (min-width: 1201px) {
+  .pageLoading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+
+.yearTopRow {
+  display: flex;
+  flex-direction: row;
+  margin-left: 24px;
+  justify-content: space-between;
+}
+
+.yearMap {
+  display: grid;
+  grid-row-gap: 12px;
+  grid-template-rows: repeat(8, 90px);
+  grid-column-gap: 12px;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin-top: 8px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.nameBox {
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+  background-color: #EBF4FA;
+  color: #1D1F20;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.name {
+  font-size: clamp(1rem, 2vw, 10vw);
+  font-family: 'caveat', cursive;
+  font-weight: '700';
+  color: #46A46C;
+}
+
+.outputButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.dobBox {
+  grid-column: 1 / 1;
+  grid-row: 2 / span 2;
+  background-color: #EBF4FA;
+  color: #1D1F20;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.dobText {
+  font-family: 'caveat', cursive;
+  font-weight: '700';
+  color: #46A46C;
+  font-size: clamp(1vw, 2.5vw, 5vw);
+}
+
+.dobText2 {
+  font-family: 'caveat', cursive;
+  font-weight: '700';
+  color: #46A46C;
+  font-size: 1.5em;
+}
+
+
+.contText {
+    font-family: 'Courier New', monospace;
+    font-weight: 400;
+}
+
+.contDiv {
+  display: flex;
+}
+
+.visionBox {
+  grid-column: 2 / 2;
+  grid-row: 1 / span 3;
+  background-color: #EBF4FA;
+  color: #1D1F20;
+  display: flex;
+  flex-grow: 3;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.visionheader {
+  font-size: clamp(1em, 1.25vw, 3vw);
+  font-family: 'caveat', cursive;
+  color: #46A46C;
+}
+
+.visionBox input {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.visionDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.dividingLine {
+  margin: 3px 12px 3px 12px;
+  color: lightgray;
+}
+
+.memoryBox {
+  grid-column: 3 / 3;
+  grid-row: 5 / span 3;
+  background-color: #EBF4FA;
+  color: #1D1F20;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.ikigaiBox {
+  grid-column: 3 / 3;
+  grid-row: 1 / span 2;
+  background-color: #EBF4FA;
+  color: #1D1F20;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.ikigaiText {
+  font-size: clamp(1em, 1.75vw, 3vw);
+  font-family: 'caveat', cursive;
+  color: #46A46C;
+}
+
+.whyBox {
+  grid-column: 2 / 2;
+  grid-row: 4 / span 4;
+  background-color: #EBF4FA;
+  color: #1D1F20;
+  display: flex;
+  flex-grow: 3;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 6px 6px 6px;
+}
+
+.whyTitle {
+  margin: 0;
+}
+
+.whyText {
+  font-size: clamp(1em, 2vw, 4vw);
+  font-family: 'caveat', cursive;
+  color: #46A46C;
+}
+
+.valuesBox {
+  grid-column: 1 / 1;
+  grid-row: 4 / span 4;
+  background-color: #EBF4FA;
+  color: #1D1F20;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  line-height: clamp(0.6, 0.8, 1);
+  padding: 6px;
+}
+
+.valuesTitle {
+  margin: 0px 0 10px 0;
+}
+
+.valuesIntBox {
+  display: flex;
+  flex-direction: row;
+}
+
+.valuesIntBox input:first-child {
+  width: 30%;
+}
+
+.valuesIntBox input:last-child {
+  width: 65%;
+}
+
+.valuesIntBoxView {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 6px 0 6px 0;
+}
+
+.valueName {
+  font-size: clamp(0.8em, 1.1em, 1.4em);
+  font-weight: 700;
+  color: #46A46C;
+  font-family: 'caveat', cursive;
+}
+
+.valueExplanation {
+  font-size: clamp(0.3em, 0.6em, 0.8em);
+  color: #1D1F20;
+}
+
+.quoteBox {
+  grid-column: 3 / 3;
+  grid-row: 3 / span 2;
+  background-color: #EBF4FA;
+  color: #1D1F20;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.quoteBox input {
+  width: 100%;
+  height: 75px;
+  margin-bottom: 12px;
+}
+
+.quoteText {
+  font-size: clamp(1em, 1.4vw, 3vw);
+  font-family: 'caveat', cursive;
+  color: #46A46C;
+}
+
+.ikigaiBox input {
+  width: 100%;
+  height: 75px;
+  margin-bottom: 12px;
+}
+
+.buttonBox {
+  background-color: #46A46C;
+  color: #1D1F20;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+
+.submitYearButton {
+  background-color: #EBF4FA;
+  color: #46A46C;
+  border: 1px solid #46A46C;
+  margin-right: 24px;
+}
+
+#helpButton {
+  background-color: #EBF4FA;
+  color: #46A46C;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #46A46C;
+  border-color: #46A46C;
+  box-shadow: none;
+  width: auto;
+}
+
+.explainerButton {
+  background-color: #46A46C;
+  color: #EBF4FA;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #EBF4FA;
+  box-shadow: none;
+  width: auto;
+}
+
+.explainerButton:hover {
+  background-color: #EBF4FA;
+  color: #46A46C;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #46A46C;
+  border-color: #46A46C;
+  box-shadow: none;
+  width: auto;
+}
+
+.videoContainer {
+  height: 500px;
+  width: 75%;
+  background-color: #EBF4FA;
+  display: flex;
+  top: 20%;
+  left: 12.5%;
+  position: fixed;
+  border: 1px solid #46A46C;
+  border-radius: 10px;
+}
+
+.dropdown-menu {
+      background-color: #EBF4FA;
+}
+
+.helpItem {
+    background-color: #EBF4FA;
+  min-width: 100%;
+    font-family: 'caveat', cursive;
+    font-size: 1.2em;
+  display: inline-flex;
+  flex-direction: row;
+    color: #46A46C;
+}
+
+.helpItem:hover,
+.helpLink:hover
+ {
+  background-color: #46A46C;
+  color: #EBF4FA;
+}
+
+.helpLink {
+    background-color: #EBF4FA;
+  text-decoration: none;
+  color: #46A46C;
+}
+
+.nameBox:hover .editDeleteName,
+.dobBox:hover .editDeleteDOB,
+.valuesBox:hover .editDeleteValues1,
+.valuesBox:hover .editDeleteValuesText1,
+.valuesBox:hover .editDeleteValues2,
+.valuesBox:hover .editDeleteValuesText2,
+.valuesBox:hover .editDeleteValues3,
+.valuesBox:hover .editDeleteValuesText3,
+.valuesBox:hover .editDeleteValues4,
+.valuesBox:hover .editDeleteValuesText4,
+.valuesBox:hover .editDeleteValues5,
+.valuesBox:hover .editDeleteValuesText5,
+.visionBox:hover .editDeleteVision1,
+.visionBox:hover .editDeleteVision2,
+.visionBox:hover .editDeleteVision3,
+.visionBox:hover .editDeleteVision4,
+.visionBox:hover .editDeleteVision5,
+.whyBox:hover .editDeleteWhy,
+.ikigaiBox:hover .editDeleteIkigai,
+.quoteBox:hover .editDeleteQuote {
+  display: block;
+}
+
+.editDeleteName,
+.editDeleteDOB,
+.editDeleteValues1,
+.editDeleteValuesText1,
+.editDeleteValues2,
+.editDeleteValuesText2,
+.editDeleteValues3,
+.editDeleteValuesText3,
+.editDeleteValues4,
+.editDeleteValuesText4,
+.editDeleteValues5,
+.editDeleteValuesText5,
+.editDeleteVision1,
+.editDeleteVision2,
+.editDeleteVision3,
+.editDeleteVision4,
+.editDeleteVision5,
+.editDeleteWhy,
+.editDeleteIkigai,
+.editDeleteQuote {
+  display: none;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+}
+/* ================================================================= */
+
+
+@media only screen and (max-width: 1200px) and (min-width: 502px) {
+
+  .yearMap {
+    display: grid;
+    grid-row-gap: 12px;
+    grid-template-rows: repeat(16, 1fr);
+    grid-column-gap: 12px;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+  }
+
+  .nameBox {
+    grid-column: 1 / 1;
+    grid-row: 1 / auto;
+    background-color: #EBF4FA;
+    color: #1D1F20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 6px;
+  }
+
+  .name {
+    font-family: 'caveat', cursive;
+    font-weight: '700';
+    color: #46A46C;
+    font-size: clamp(3vw, 4vw, 8vw);
+    line-height: 1;
+  }
+
+  .visionBox {
+    grid-column: 2 / 2;
+    grid-row: 1 / 4;
+    background-color: #EBF4FA;
+    color: #1D1F20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+    border-radius: 10px;
+    padding: 6px;
+  }
+
+  .visionheader {
+    font-family: 'caveat', cursive;
+    color: #46A46C;
+    font-size: clamp(1vw, 2.5vw, 5vw);
+  }
+
+  .visionBox input {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .dividingLine {
+    margin: 3px 12px 3px 12px;
+    color: green;
+  }
+
+  .memoryBox {
+    grid-column: 2 / 2;
+    grid-row: auto / span 4;
+    background-color: #EBF4FA;
+    color: #1D1F20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 6px;
+  }
+
+  .ikigaiBox {
+    grid-column: 2 / 2;
+    grid-row: 4 / auto;
+    background-color: #EBF4FA;
+    color: #1D1F20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 6px;
+  }
+
+  .ikigaiBox input {
+    width: 100%;
+    height: 75px;
+    margin-bottom: 12px;
+  }
+
+  .ikigaiText {
+    font-family: 'caveat', cursive;
+    color: #46A46C;
+    font-size: clamp(2vw, 4vw, 5vw);
+  }
+
+  .dobBox {
+    grid-column: 1 / 1;
+    grid-row: 2 / auto;
+    background-color: #EBF4FA;
+    color: #1D1F20;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 6px;
+  }
+
+  .dobText {
+    font-family: 'caveat', cursive;
+    font-weight: '700';
+    color: #46A46C;
+  }
+
+  .whyBox {
+    grid-column: 1 / 1;
+    grid-row: auto / auto;
+    background-color: #EBF4FA;
+    color: #1D1F20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 10px;
+  }
+
+  .whyTitle {
+    margin: 0;
+  }
+
+  .whyText {
+    font-family: 'caveat', cursive;
+    color: #46A46C;
+    font-size: clamp(2vw, 3vw, 4vw);
+  }
+
+  .valuesBox {
+    grid-column: 1 / 1;
+    grid-row: 3 / auto;
+    background-color: #EBF4FA;
+    color: #1D1F20;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 1;
+    padding: 6px;
+  }
+
+  .valuesTitle {
+    margin: 3px 0 12px 0;
+  }
+
+  .valuesIntBoxView {
+    margin: 6px 0 6px 0;
+  }
+
+  .valueName {
+    font-weight: 700;
+    color: #46A46C;
+    font-family: 'caveat', cursive;
+    font-size: clamp(4vw, 5vw, 8vw);
+  }
+
+  .valueExplanation {
+    color: #1D1F20;
+    font-size: clamp(1vw, 2vw, 3vw);
+  }
+
+  #firstValue {
+    margin-top: 16px;
+  }
+
+  .quoteBox {
+    grid-column: 1 / 1;
+    grid-row: auto / auto;
+    background-color: #EBF4FA;
+    color: #1D1F20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 6px;
+  }
+
+  .quoteBox input {
+    width: 100%;
+    height: 75px;
+    margin-bottom: 12px;
+  }
+
+  .quoteText {
+    font-family: 'caveat', cursive;
+    color: #46A46C;
+  }
+
+  .buttonBox {
+    background-color: #46A46C;
+    color: #1D1F20;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .submitYearButton {
+    background-color: #EBF4FA;
+    color: #46A46C;
+    border: 1px solid #46A46C;
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 501px) and (min-width: 0px) {
+  .yearMap {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .name {
+    font-family: 'caveat', cursive;
+    font-weight: '700';
+    color: #46A46C;
+    font-size: clamp(6vw, 8vw, 10vw);
+    line-height: 1;
+  }
+
+  .visionheader {
+    font-family: 'caveat', cursive;
+    color: #46A46C;
+    font-size: clamp(2vw, 4vw, 6vw);
+  }
+
+  .visionBox input {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .dividingLine {
+    margin: 3px 12px 3px 12px;
+    color: green;
+  }
+
+
+  .ikigaiText {
+    font-family: 'caveat', cursive;
+    color: #46A46C;
+    font-size: clamp(4vw, 6vw, 8vw);
+  }
+
+
+  .dobText {
+    font-family: 'caveat', cursive;
+    font-weight: '700';
+    color: #46A46C;
+  }
+
+
+  .whyTitle {
+    margin: 0;
+  }
+
+  .whyText {
+    font-family: 'caveat', cursive;
+    color: #46A46C;
+    font-size: clamp(4vw, 6vw, 8vw);
+  }
+
+
+
+  .valuesTitle {
+    margin: 3px 0 12px 0;
+  }
+
+  .valuesIntBoxView {
+    margin: 6px 0 6px 0;
+  }
+
+  .valueName {
+    font-weight: 700;
+    color: #46A46C;
+    font-family: 'caveat', cursive;
+    font-size: clamp(4vw, 5vw, 8vw);
+  }
+
+  .valueExplanation {
+    color: #1D1F20;
+    font-size: clamp(1vw, 2vw, 3vw);
+  }
+
+
+  .quoteText {
+    font-family: 'caveat', cursive;
+    color: #46A46C;
+    font-size: clamp(4vw, 6vw, 8vw);
+  }
+
+  .buttonBox {
+    background-color: #46A46C;
+    color: #1D1F20;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .submitYearButton {
+    background-color: #EBF4FA;
+    color: #46A46C;
+    border: 1px solid #46A46C;
+    margin-bottom: 12px;
+  }
+
+  .dobText {
+    font-family: 'caveat', cursive;
+    font-weight: '700';
+    color: #46A46C;
+    font-size: clamp(4vw, 6vw, 8vw);
+  }
+
+  .dobText2 {
+    font-family: 'caveat', cursive;
+    font-weight: '700';
+    color: #46A46C;
+    font-size: clamp(4vw, 6vw, 8vw);
+  }
+
+}

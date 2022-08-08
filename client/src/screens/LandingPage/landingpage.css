@@ -1,0 +1,98 @@
+/* Landing Page */
+.landingPageRowHeaderTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landingPageLogo {
+  margin-left: 24px;
+  margin-bottom: 24px;
+}
+
+.landingPageLogInMain {
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.landingPageHeaderText {
+  color: #EBF4FA;
+  font-family: 'caveat', cursive;
+  font-size: clamp(6vw, 8vw, 10vw);
+  }
+
+  .landingPageBox {
+    background-color: #EBF4FA;
+    color: #1D1F20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 6px;
+  }
+
+.landingPageBox h1 {
+  font-family: 'caveat', cursive;
+  color: #46A46C;
+}
+
+.landingPageBox a,
+#close {
+  font-family: 'caveat', cursive;
+  text-decoration: none;
+  color: #46A46C;
+}
+
+.strapLine {
+  color: #EBF4FA;
+  font-size: 0.8em;
+}
+
+.benefitExplainer {
+  color: lightgreen;
+  font-size: 0.8em;
+}
+
+.landingPageRow {
+  height: 250px;
+}
+
+.benefitHeader {
+  color: lightgreen;
+  font-family: 'caveat', cursive;
+  font-size: clamp(4vw, 7vw, 9vw);
+}
+
+.benefitCol:hover .benefitHeader{
+  color: #EBF4FA;
+  font-family: 'caveat', cursive;
+  font-size: clamp(4vw, 7vw, 9vw);
+}
+
+.benefitCol:hover .benefitExplainer {
+  color: #EBF4FA;
+  font-size: 0.8em;
+}
+
+.planningIcon,
+.primingIcon,
+.playbackIcon {
+  height: 32px;
+  width: 32px;
+  color: lightgreen;
+}
+
+.benefitCol:hover .planningIcon,
+.benefitCol:hover .primingIcon,
+.benefitCol:hover .playbackIcon {
+  height: 42px;
+  width: 42px;
+  color: darkgreen;
+}
