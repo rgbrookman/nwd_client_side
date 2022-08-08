@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3c032bd8.css",
+    "main.js": "/static/js/main.0552ad67.js",
+    "static/media/lnwh.gif": "/static/media/lnwh.c56fe3cfc1f05e43bf3a.gif",
+    "static/media/tenor.gif": "/static/media/tenor.93a255c4fc21aa806c3c.gif",
+    "static/media/realquiz.gif": "/static/media/realquiz.f112977eb09119f275f0.gif",
+    "static/media/FeelingScoreToday.png": "/static/media/FeelingScoreToday.43754e1accbcd3609712.png",
+    "static/media/overly-confident-8.gif": "/static/media/overly-confident-8.08d28b8c92f7cd307a45.gif",
+    "static/media/TCR.png": "/static/media/TCR.bdff2fbed3bf9c62fc08.png",
+    "static/media/wave_concept.png": "/static/media/wave_concept.ed9a38b683dc9250dfee.png",
+    "static/media/tasksCompleted.png": "/static/media/tasksCompleted.2a76ef5c018fd19a0b8f.png",
+    "static/media/Same_Average.png": "/static/media/Same_Average.ee0b9739ec4c1165f250.png",
+    "static/media/spiral.png": "/static/media/spiral.22d6826abc0481b3919b.png",
+    "static/media/NWD_Logo_White.png": "/static/media/NWD_Logo_White.763188342d681fc02551.png",
+    "static/media/FeelingScoreChart.png": "/static/media/FeelingScoreChart.cc3e28c0c7171880658f.png",
+    "index.html": "/index.html",
+    "main.3c032bd8.css.map": "/static/css/main.3c032bd8.css.map",
+    "main.0552ad67.js.map": "/static/js/main.0552ad67.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c032bd8.css",
+    "static/js/main.0552ad67.js"
+  ]
+}
