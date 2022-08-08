@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Koulen&family=Montserrat&display=swap');
+
+/* General Accessibility */
+html {
+  height: 100%;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  height: 100%;
+  background-color: #46A46C;
+  color: #333;
+  font-size: 1.2em;
+  padding: 0;
+  margin: 0;
+  color: #1D1F20;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+span, p, li {
+  font-family: 'Courier New', monospace;
+  font-weight: 400;
+}
+
+label {
+  font-family: arial, sans-serif;
+  font-weight: 200;
+  font-size: 0.8em;
+  line-height: 0.8;
+  margin: 0 0 0 12px;
+  text-align: start;
+  color: lightgreen;
+}
+
+/* App.js */
+Link {
+  text-decoration: none;
+}
+
+.buttonBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+}
+
+DropdownButton {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

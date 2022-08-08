@@ -1,0 +1,26 @@
+/* Footer */
+.footerLink {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  background-color: #46A46C;
+  color: #EBF4FA;
+  border: none;
+  border-radius: 10px;
+  box-shadow: none;
+  text-decoration: none;
+  margin: 0px 6px 12px 6px;
+}
+
+.footerLink:hover,
+#yearDropdownToggle:hover,
+#weekDropdownToggle:hover,
+.dropDownToggle:hover
+ {
+  color: #46A46C;
+    background-color: #EBF4FA;
+    border-radius: 10px;
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}

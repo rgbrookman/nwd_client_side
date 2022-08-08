@@ -1,0 +1,176 @@
+.aboutScreenMain {
+  display: grid;
+  height: 80vh;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+
+.itemA {
+  grid-row: 1 / 2;
+  grid-column: 1 / span 6;
+  color: #EBF4FA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fortuneDiv {
+  grid-row: 2 / 3;
+  grid-column: 1 / span 3;
+  background-color: #EBF4FA;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 16px;
+  margin: 24px 24px 24px;
+  color: #46A46C;
+}
+
+.fortuneAnswerDiv {
+  grid-row: 2 / 3;
+  grid-column: 1 / span 3;
+  background-color: #EBF4FA;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 16px;
+  margin: 24px;
+  color: #46A46C;
+}
+
+.itemC {
+  grid-row: 2 / 3;
+  grid-column: 4 / span 3;
+  background-color: #EBF4FA;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 16px;
+  margin: 24px;
+  color: #46A46C;
+}
+
+.difficultDiv {
+  grid-row: 2 / 3;
+  grid-column: 4 / span 3;
+  background-color: #EBF4FA;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 16px;
+  margin: 24px;
+  color: #46A46C;
+}
+
+.missionContainer {
+  grid-row: 3 / 5;
+  grid-column: 1 / span 6;
+  color: #EBF4FA;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  margin-top: 24px;
+  margin-left: 96px;
+  margin-right: 96px;
+}
+
+.aboutHeader {
+  font-size: 96px;
+  font-family: 'caveat', cursive;
+}
+
+.missionHeader {
+  font-size: 48px;
+  margin-top: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+  .fortuneDiv {
+    grid-row: 2 / 3;
+    grid-column: 1 / span 3;
+    background-color: #EBF4FA;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+    margin: 24px 24px 24px;
+    color: #46A46C;
+  }
+
+  .fortuneAnswerDiv {
+    grid-row: 2 / 3;
+    grid-column: 1 / span 3;
+    background-color: #EBF4FA;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+    margin: 24px;
+    color: #46A46C;
+  }
+
+  .itemC {
+    grid-row: 2 / 3;
+    grid-column: 4 / span 3;
+    background-color: #EBF4FA;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+    margin: 24px 24px 24px;
+    color: #46A46C;
+  }
+
+  .difficultDiv {
+    grid-row: 2 / 3;
+    grid-column: 4 / span 3;
+    background-color: #EBF4FA;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+    margin: 24px;
+    color: #46A46C;
+  }
+
+  .missionContainer {
+    grid-row: 3 / 5;
+    grid-column: 1 / span 6;
+    color: #EBF4FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .missionHeader {
+    font-size: 48px;
+    margin-top: 24px;
+  }
+  }

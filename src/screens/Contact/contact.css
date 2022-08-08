@@ -1,0 +1,43 @@
+
+.senderContainer,
+.contactContainer,
+.senderEmailContainer,
+.enquiryContainer,
+.subjectLineDiv,
+.messageDiv {
+  display: flex;
+  flex-direction: column;
+  margin: 12px 0;
+}
+
+.senderContainer label,
+.contactContainer label,
+.senderEmailContainer label,
+.enquiryContainer label,
+.subjectLineDiv label,
+.messageDiv label {
+  font-family: "Koulen", cursive;
+  font-size: 1em;
+  margin-bottom: 4px;
+}
+
+.senderContainer input,
+.contactContainer input,
+.senderEmailContainer input,
+.enquiryContainer input,
+.subjectLineDiv input,
+.messageDiv textarea {
+  border-radius: 5px;
+}
+
+.sendButton {
+  background-color: #EBF4FA;
+  color: #46A46C;
+  font-family: 'Koulen', cursive;
+  border: 1px solid #46A46C;
+  margin-bottom: 12px;
+}
+
+.contactSpan {
+  color: #EBF4FA;
+}
