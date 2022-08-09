@@ -133,7 +133,7 @@ useEffect(()=> {
 <Row>
 
 <Col className="text-center" >
-<h3 className="chartTitle">Your Feeling Score over Time</h3>
+<h3 className="chartTitle">Your Feeling Score over Time:</h3>
        <FeelingScore />
        </Col>
 

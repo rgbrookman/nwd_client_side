@@ -74,7 +74,7 @@ const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth
       ?
       <main className="landingPageLogInMain">
       <h1 className="landingPageHeaderText">
-      {userInfo.name}, <br/>this is your NoWastedDays</h1>
+      {userInfo.name}, <br/>this is your NoWastedDays.</h1>
 
 
 

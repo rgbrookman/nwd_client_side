@@ -112,7 +112,7 @@ onChange={(e) => setDatePicker(e.target.value)}
 onClick={()=> {
   setVideoDisplay(videoDisplay => !videoDisplay);
 }}>
-Learn About Your Diary Page
+Learn About Your Diary Page.
 </Button>
 
 <Button className="submitDayContainer" href="/insight">

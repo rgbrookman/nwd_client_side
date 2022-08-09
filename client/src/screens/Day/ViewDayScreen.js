@@ -218,7 +218,7 @@ required
   onClick={()=> {
     setVideoDisplay(videoDisplay => !videoDisplay);
   }}>
-  Learn About Your Today Page
+  Learn About Your Today Page.
   </Button>
 <Button className="submitDayContainer" type="submit">
   Tweak Day

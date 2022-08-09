@@ -204,7 +204,7 @@ onChange={(e) => setLogDate(e.target.value)}
   onClick={()=> {
     setVideoDisplay(videoDisplay => !videoDisplay);
   }}>
-  Learn About Your Today Page
+  Learn About Your Today Page.
   </Button>
 <Button className="submitDayContainer" type="submit">
   Log Day in the Diary

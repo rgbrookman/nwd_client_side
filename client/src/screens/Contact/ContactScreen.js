@@ -43,7 +43,7 @@ export default function Contact({ history }) {
     <Row>
     <Col>
     <div className="senderContainer">
-    <label className="contactLabel"for="contactName">Name</label>
+    <label className="contactLabel"for="contactName">Name:</label>
     <input
       id="contactName"
       type="text"
