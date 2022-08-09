@@ -866,7 +866,7 @@ className="eraseIcon"
 <div className="afterScoreContainer">
       <div className="beforeEndScoreWhat">
         <div className="questionTitle">
-          <span>After the day described above, I felt...</span>
+          <span>After the day described above, I felt..</span>
         </div>
         <div className="afterScoreInput">
           <label htmlFor="afterScoreID">{endScore}</label>
