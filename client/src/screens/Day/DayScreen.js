@@ -622,7 +622,7 @@ className="eraseIcon"
   animate={isDisplay7 ? "show" : "hide"}
   variants={showHideMomentState}>
   <div className="questionTitleButtonsDisplay">
-    {momentThreeScore == 0 ? <h5>Moment Three is {localStorage.momentThree}</h5> :   <h5>Moment Three is {localStorage.momentThree} - {localStorage.momentThreeScore}/10</h5>}
+    {momentThreeScore == 0 || momentThreeScore === null ? <h5>Moment Three is {localStorage.momentThree}</h5> :   <h5>Moment Three is {localStorage.momentThree} - {localStorage.momentThreeScore}/10</h5>}
   <div className="editDelete">
     <FontAwesomeIcon
       className="editIcon"
@@ -704,7 +704,7 @@ className="eraseIcon"
   animate={isDisplay8 ? "show" : "hide"}
   variants={showHideMomentState}>
   <div className="questionTitleButtonsDisplay">
-    {momentFourScore == 0 ? <h5>Moment Four is {localStorage.momentFour}</h5> :   <h5>Moment Four is {localStorage.momentFour} - {localStorage.momentFourScore}/10</h5>}
+    {momentFourScore == 0 || momentFourScore === null? <h5>Moment Four is {localStorage.momentFour}</h5> :   <h5>Moment Four is {localStorage.momentFour} - {localStorage.momentFourScore}/10</h5>}
   <div className="editDelete">
     <FontAwesomeIcon
       className="editIcon"
@@ -786,7 +786,7 @@ className="eraseIcon"
   animate={isDisplay9 ? "show" : "hide"}
   variants={showHideMomentState}>
   <div className="questionTitleButtonsDisplay">
-    {momentFiveScore == 0 ? <h5>Moment Five is {localStorage.momentFive}</h5> :   <h5>Moment Five is {localStorage.momentFive} - {localStorage.momentFiveScore}/10</h5>}
+    {momentFiveScore == 0 || momentFiveScore === null ? <h5>Moment Five is {localStorage.momentFive}</h5> :   <h5>Moment Five is {localStorage.momentFive} - {localStorage.momentFiveScore}/10</h5>}
   <div className="editDelete">
     <FontAwesomeIcon
       className="editIcon"
