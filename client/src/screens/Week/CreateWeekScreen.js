@@ -85,7 +85,8 @@ export default function WeekScreen({ history }) {
   return (
 <>
 <Header />
-<Container className="weekScreenMain">
+
+<Container className="weekScreenMain" fluid>
 <motion.div
 animate={videoDisplay ? "hide" : "show"}
 variants={valueState}
@@ -106,6 +107,8 @@ className="videoContainer">
         Create New Week
       </Button>
   </Row>
+  <Row>
+  <Col sm={12} md={6} lg={6} xl={6}>
     <Row id="objectiveRow" className="mb-4 align-items-center">
       <Col className="mb-1" sm={12} md={7} xl={7}>
         <Form.Group >
@@ -255,7 +258,8 @@ onChange={(e) => setObjectiveFive_score(e.target.value)}
 </Form.Group>
 </Col>
 </Row>
-
+</Col>
+<Col sm={12} md={6} lg={6} xl={6}>
 <Row id="objectiveRow" className="mb-4 align-items-center">
   <Col className="mb-1" sm={12} md={7} xl={7}>
     <Form.Group >
@@ -406,8 +410,10 @@ onChange={(e) => setObjectiveTen_score(e.target.value)}
 </Form.Group>
 </Col>
 </Row>
-
+</Col>
+</Row>
     </Form>
+   
 </Container>
 </>
   );

@@ -238,6 +238,7 @@ const [videoDisplay, setVideoDisplay] = useState(true);
   return (
 <>
 <Header />
+{ pageLoading ? <div className="pageLoading"><PageLoading /></div> :
 <Container className="weekScreenMain" fluid>
 
 <motion.div
@@ -266,7 +267,7 @@ className="videoContainer">
         Create New Week
       </Button>
   </Row>
-    { pageLoading ? <PageLoading /> :
+ 
 <Row>
 <Col sm={12} md={6} lg={6} xl={6}>
 
@@ -1067,10 +1068,11 @@ onChange={(e) => setObjectiveTen_score(e.target.value)}
 </Row>
 </Col>
 </Row>
-  }
+  
     </Form>
 
 </Container>
+}
 </>
   );
 }

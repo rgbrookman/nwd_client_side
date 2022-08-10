@@ -203,13 +203,15 @@ const updateHandler = (e) => {
     }, 250);
 };
 
-//Unique Day Number Variables
-let day1 = new Date(birthDate);
-let day2 = new Date();
 
-let diff = Math.abs(day2-day1);
-let daysCalc = diff / (1000 * 3600 * 24)
-let days1 = Math.floor(daysCalc);
+  let day1 = new Date(birthDate);
+  let day2 = new Date();
+  
+  let diff = Math.abs(day2-day1);
+  let daysCalc = diff / (1000 * 3600 * 24)
+  let days1 = Math.floor(daysCalc);
+
+
 
 const loadingTimeout = () => {
   setTimeout(()=> {
@@ -318,8 +320,10 @@ Learn About Your Year Page
         className="dobBox">
           <span>I was born on...</span>
             <motion.div className="outputButtons">
-              {years && years.map((year) =>
+        
                 <div>
+                {!years ? <Loading /> : years.map((year) =>
+                <>
                 <motion.h4
                   key={year._id}
                   className="dobText"
@@ -328,9 +332,14 @@ Learn About Your Year Page
                   >{day1.toLocaleString().substring(0,10)}</motion.h4>
                   <hr className="dividingLine"/>
                   <div className="contDiv">
-                    <span className="contText">Today is {day2.toLocaleString().substring(0,10)}
+                    <span className="contText">Toda is {day2.toLocaleString().substring(0,10)}
                     <br/>day <span className="dobText2">{days1}</span> in my life.</span>
                   </div>
+                  </>
+                  )}
+
+                  {!years ? <Loading /> : years.map((year) =>
+                  <>
                 <motion.input
                   key={year._id}
                   type="date"
@@ -339,11 +348,12 @@ Learn About Your Year Page
                   animate={ inputBirthDate ? "show": "hide"}
                   variants={valueState}
                 ></motion.input>
-
+                </>
+                )}
 
 
                   </div>
-              )}
+            
       <motion.div className="editDeleteDOB">
           <FontAwesomeIcon
             className="editIcon"

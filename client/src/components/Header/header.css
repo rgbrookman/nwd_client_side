@@ -1,5 +1,5 @@
 .navbarHeader {
-  margin: 10px 0px 10px 24px;
+  margin: 10px 12px 10px 12px;
   align-items: center;
 }
 
@@ -10,7 +10,6 @@ margin: 0 12px 0 12px;
 .lastDayNudge {
   font-size: 0.6em;
   color: #EBF4FA;
-  margin-left: 3px;
 }
 
 .inactive,

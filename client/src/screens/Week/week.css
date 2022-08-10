@@ -51,6 +51,7 @@
 #buttonRow {
 display: flex;
 justify-content: space-between;
+margin: 0 12px;
 }
 
 .submitWeekButton {
@@ -59,8 +60,6 @@ justify-content: space-between;
   font-family: 'Koulen', cursive;
   border: 1px solid #46A46C;
   width: auto;
-  margin-left: 24px;
-  margin-right: 24px;
   margin-bottom: 12px;
 }
 
@@ -70,6 +69,11 @@ justify-content: space-between;
   color: #46A46C;
   font-size: clamp(1rem, 1vw, 5vw);
 }
+
+.form-label {
+margin: 0 0 0.5em 0;
+}
+
 
 .objectiveLabel {
   font-family: 'Courier New', monospace;

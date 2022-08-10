@@ -93,9 +93,15 @@ const Header = ({ history }) => {
   !days && !years && !weeks
   ?
 
-  <Loading /> :
+  <Navbar.Brand>
+  <Nav.Link href="/">
+  <Loading />
+  </Nav.Link>
+  </Navbar.Brand>
+   :
 
   <Navbar.Brand>
+    <Nav.Link href="/">
     <img
       src={logo}
       width="30"
@@ -103,6 +109,7 @@ const Header = ({ history }) => {
       className="d-inline-block align-top"
       alt="NWD Logo"
     />
+    </Nav.Link>
     </Navbar.Brand>
 
 }

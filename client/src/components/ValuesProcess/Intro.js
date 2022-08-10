@@ -7,6 +7,7 @@ import { ErrorMessage } from '../../components/Error/ErrorMessage';
 import PropagateLoader from "react-spinners/PropagateLoader";
 import { motion, AnimatePresence, AnimateSharedLayout } from "framer-motion";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Header from "../../components/Header/Header";
 import { faPenToSquare, faEraser, faCirclePlus, faCircleMinus, faBullseye} from '@fortawesome/free-solid-svg-icons'
 import '../../screens/Values/values.css';
 
@@ -542,6 +543,7 @@ const valuesState = {
         vw > 800 ?
         <motion.div
           className="introStageMain">
+            <Header />
             <motion.div
               className="introContainer"
               variants={introState}
